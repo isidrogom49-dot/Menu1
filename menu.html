@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gourmet Menu</title>
+<link rel="stylesheet" href="menu.css">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Open+Sans&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+</head>
+<body>
+
+<!-- Hero Section -->
+<section class="hero">
+  <div>
+    <h1>Gourmet Delights</h1>
+    <p>Exclusive Menu for Food Lovers</p>
+  </div>
+</section>
+
+<!-- Banner Section -->
+<section class="banner">
+  <img src="https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=1200&q=80" alt="Gourmet Banner">
+  <div class="banner-text">
+    <h2>Chef's Specials</h2>
+    <p>Curated by our Master Chefs for a unique dining experience</p>
+  </div>
+</section>
+
+<!-- Menu Section -->
+<section class="section fade-section">
+  <h2>Our Specialties</h2>
+  <div class="cards">
+    <!-- 24 Cards de platillos -->
+    <div class="card" data-img="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=800&q=80">
+      <div class="card-image"></div>
+      <div class="card-overlay"><h3>Truffle Pasta</h3><span class="price">$25</span></div>
+    </div>
+    <div class="card" data-img="https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?auto=format&fit=crop&w=800&q=80">
+      <div class="card-image"></div>
+      <div class="card-overlay"><h3>Grilled Salmon</h3><span class="price">$30</span></div>
+    </div>
+    <div class="card" data-img="https://images.unsplash.com/photo-1600891965057-1ecda3725a9d?auto=format&fit=crop&w=800&q=80">
+      <div class="card-image"></div>
+      <div class="card-overlay"><h3>Steak Deluxe</h3><span class="price">$40</span></div>
+    </div>
+    <div class="card" data-img="https://images.unsplash.com/photo-1600891964565-8b5d5271234b?auto=format&fit=crop&w=800&q=80">
+      <div class="card-image"></div>
+      <div class="card-overlay"><h3>Chocolate Cake</h3><span class="price">$12</span></div>
+    </div>
+    <div class="card" data-img="https://images.unsplash.com/photo-1617196030590-ef159c6c4f12?auto=format&fit=crop&w=800&q=80">
+      <div class="card-image"></div>
+      <div class="card-overlay"><h3>Lobster Bisque</h3><span class="price">$35</span></div>
+    </div>
+    <div class="card" data-img="https://images.unsplash.com/photo-1562967916-eb82221dfb23?auto=format&fit=crop&w=800&q=80">
+      <div class="card-image"></div>
+      <div class="card-overlay"><h3>Vegetable Risotto</h3><span class="price">$22</span></div>
+    </div>
+    <div class="card" data-img="https://images.unsplash.com/photo-1604908177523-9d3202690b68?auto=format&fit=crop&w=800&q=80">
+      <div class="card-image"></div>
+      <div class="card-overlay"><h3>Cheesecake Deluxe</h3><span class="price">$15</span></div>
+    </div>
+    <div class="card" data-img="https://images.unsplash.com/photo-1626869012321-7a6d73e5c63d?auto=format&fit=crop&w=800&q=80">
+      <div class="card-image"></div>
+      <div class="card-overlay"><h3>Ribeye Steak</h3><span class="price">$45</span></div>
+    </div>
+    <div class="card" data-img="https://images.unsplash.com/photo-1586190848861-99aa4a171e90?auto=format&fit=crop&w=800&q=80">
+      <div class="card-image"></div>
+      <div class="card-overlay"><h3>Seafood Paella</h3><span class="price">$38</span></div>
+    </div>
+    <div class="card" data-img="https://images.unsplash.com/photo-1551218808-93c77f9d4d7f?auto=format&fit=crop&w=800&q=80">
+      <div class="card-image"></div>
+      <div class="card-overlay"><h3>Margherita Pizza</h3><span class="price">$20</span></div>
+    </div>
+    <div class="card" data-img="https://images.unsplash.com/photo-1589307000201-446c85edca3e?auto=format&fit=crop&w=800&q=80">
+      <div class="card-image"></div>
+      <div class="card-overlay"><h3>Beef Wellington</h3><span class="price">$50</span></div>
+    </div>
+    <div class="card" data-img="https://images.unsplash.com/photo-1604908177500-b51d7f99999c?auto=format&fit=crop&w=800&q=80">
+      <div class="card-image"></div>
+      <div class="card-overlay"><h3>Chicken Cordon Bleu</h3><span class="price">$28</span></div>
+    </div>
+    <div class="card" data-img="https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=800&q=80">
+      <div class="card-image"></div>
+      <div class="card-overlay"><h3>Grilled Veggies</h3><span class="price">$18</span></div>
+    </div>
+    <div class="card" data-img="https://images.unsplash.com/photo-1603079507544-8b0e0a3e4f5b?auto=format&fit=crop&w=800&q=80">
+      <div class="card-image"></div>
+      <div class="card-overlay"><h3>Shrimp Cocktail</h3><span class="price">$27</span></div>
+    </div>
+    <div class="card" data-img="https://images.unsplash.com/photo-1589302168068-964664d93dc0?auto=format&fit=crop&w=800&q=80">
+      <div class="card-image"></div>
+      <div class="card-overlay"><h3>Salmon Teriyaki</h3><span class="price">$32</span></div>
+    </div>
+    <div class="card" data-img="https://images.unsplash.com/photo-1599785209796-6b571f1f82f0?auto=format&fit=crop&w=800&q=80">
+      <div class="card-image"></div>
+      <div class="card-overlay"><h3>Beef Tacos</h3><span class="price">$15</span></div>
+    </div>
+    <div class="card" data-img="https://images.unsplash.com/photo-1603133872872-78f20621dff7?auto=format&fit=crop&w=800&q=80">
+      <div class="card-image"></div>
+      <div class="card-overlay"><h3>Vegetable Curry</h3><span class="price">$18</span></div>
+    </div>
+    <div class="card" data-img="https://images.unsplash.com/photo-1604908177532-5b6d2690b68a?auto=format&fit=crop&w=800&q=80">
+      <div class="card-image"></div>
+      <div class="card-overlay"><h3>Pepperoni Pizza</h3><span class="price">$22</span></div>
+    </div>
+    <div class="card" data-img="https://images.unsplash.com/photo-1604908177523-0d3202690b68?auto=format&fit=crop&w=800&q=80">
+      <div class="card-image"></div>
+      <div class="card-overlay"><h3>Lamb Chops</h3><span class="price">$45</span></div>
+    </div>
+    <div class="card" data-img="https://images.unsplash.com/photo-1600891964545-8a5d5271234b?auto=format&fit=crop&w=800&q=80">
+      <div class="card-image"></div>
+      <div class="card-overlay"><h3>Chocolate Mousse</h3><span class="price">$14</span></div>
+    </div>
+    <div class="card" data-img="https://images.unsplash.com/photo-1600891964555-8b5d5271234b?auto=format&fit=crop&w=800&q=80">
+      <div class="card-image"></div>
+      <div class="card-overlay"><h3>Caesar Salad</h3><span class="price">$12</span></div>
+    </div>
+    <div class="card" data-img="https://images.unsplash.com/photo-1600891964575-8b5d5271234b?auto=format&fit=crop&w=800&q=80">
+      <div class="card-image"></div>
+      <div class="card-overlay"><h3>French Onion Soup</h3><span class="price">$16</span></div>
+    </div>
+    <div class="card" data-img="https://images.unsplash.com/photo-1600891964585-8b5d5271234b?auto=format&fit=crop&w=800&q=80">
+      <div class="card-image"></div>
+      <div class="card-overlay"><h3>Pan-Seared Scallops</h3><span class="price">$35</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- Banner de Postres -->
+<section class="banner banner-alt">
+  <img src="https://images.unsplash.com/photo-1600891964384-7d051cd27f7c?auto=format&fit=crop&w=1200&q=80" alt="Desserts Banner">
+  <div class="banner-text">
+    <h2>Dessert Corner</h2>
+    <p>Sweet delights to satisfy your cravings</p>
+  </div>
+</section>
+
+<!-- MODALES y botones como en tu código anterior -->
+<div class="modal" id="productModal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <img src="" alt="Dish">
+    <h3>Dish Name</h3>
+    <p>Description</p>
+    <span class="price">$0</span>
+    <button id="buyBtn">Purchase</button>
+  </div>
+</div>
+
+<div class="modal" id="purchaseModal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h3>Customize Your Dish</h3>
+    <form id="purchaseForm">
+      <label>Customer Name<input type="text" id="customerName" required placeholder="Your name"></label>
+      <label>Extra Ingredients<input type="text" id="extras" placeholder="Cheese, Bacon, etc."></label>
+      <label>Quantity<input type="number" id="quantity" min="1" value="1"></label>
+      <button type="submit">Confirm Purchase</button>
+      <div class="subtotal">Subtotal: $0</div>
+    </form>
+  </div>
+</div>
+
+<div class="modal" id="ticketModal">
+  <div class="modal-content ticket">
+    <span class="close">&times;</span>
+    <h3>Your Order Ticket</h3>
+    <div id="ticketContent"></div>
+    <div id="qrcodeWrapper"><div id="qrcode"></div></div>
+  </div>
+</div>
+
+<button class="back-btn">Back</button>
+
+<script src="menu.js"></script>
+</body>
+</html>
