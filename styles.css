@@ -235,40 +235,40 @@ body {
     .modal-content { padding: 25px; }
 }
 
-/* ===== MÓVILES <=600px ===== */
+/* ===== MÓVILES <=600px (GRANDE) ===== */
 @media (max-width: 600px) {
 
-    /* BODY Y ESPACIO */
-    body { padding: 40px 20px; }
+    body { padding: 20px 15px; }
+
+    /* CABECERA PRINCIPAL */
+    #loader h1 { font-size: 42px; }
 
     /* BOTONES */
     .btn, .menu-btn {
-        padding: 16px 28px;
-        font-size: 17px;
+        padding: 18px 32px;
+        font-size: 20px;
     }
 
-    /* CABECERA PRINCIPAL */
-    #loader h1 { font-size: 36px; }
-
-    /* TÍTULOS Y SUBTÍTULOS */
-    .title { font-size: 30px; }
-    .subtitle { font-size: 16px; }
-    .mini { font-size: 12px; }
+    /* MODAL TITULOS */
+    .title { font-size: 36px; }
+    .subtitle { font-size: 18px; }
+    .mini { font-size: 14px; }
 
     /* IMÁGENES DEL EQUIPO */
-    .member img { width: 140px; height: 140px; }
-
-    /* BANNER */
-    .banner { max-width: 100%; transform: scale(1.05); }
+    .member img { width: 160px; height: 160px; }
 
     /* ESPACIO ENTRE MIEMBROS */
-    .team { gap: 25px; }
+    .team { gap: 30px; }
+
+    /* BANNER */
+    .banner { max-width: 100%; transform: scale(1.1); }
 }
 
 /* ===== MÓVILES PEQUEÑOS <=400px ===== */
 @media (max-width: 400px) {
-    .btn, .menu-btn { padding: 14px 24px; font-size: 16px; }
-    .title { font-size: 26px; }
-    .subtitle { font-size: 14px; }
-    .mini { font-size: 10px; }
+    .btn, .menu-btn { padding: 16px 28px; font-size: 18px; }
+    .title { font-size: 32px; }
+    .subtitle { font-size: 16px; }
+    .mini { font-size: 12px; }
+    .member img { width: 140px; height: 140px; }
 }
